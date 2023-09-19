@@ -43,3 +43,23 @@ const calcDiffTime = (firstDate, secondDate) => {
 }
 
 export { getToday, calcDiffTime };
+
+
+/* ----- USE CASE ----- */
+// import { getToday, calcDiffTime } from "./passedTime.js";
+
+// const DATE_I_STARTED_PROGRIMMING = new Date('2022/04/08');
+// const today = getToday();
+
+// const passedYear = Math.floor(
+//   calcDiffTime(
+//     DATE_I_STARTED_PROGRIMMING,
+//     today
+//   ).getPassedYear()
+// );
+
+// if(passedYear === 1) {
+//   console.log('It seems a year has passed since I started programming!');
+// } else {
+//   console.log(`It seems ${passedYear} years have passed since I started programming!`);
+// }

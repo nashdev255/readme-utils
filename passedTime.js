@@ -21,4 +21,16 @@ const calcDiffTime = (firstDate, secondDate) => {
 
   const passedWeek   = passedDay / 7;
   const passedYear   = passedDay / 365;
+
+  return {
+    getPassedMilliSecond() { return passedMilliSecond; },
+    getPassedSecond() { return passedSecond; },
+    getPassedMinute() { return passedMinute; },
+    getPassedHour() { return passedHour; },
+    getPassedDay() { return passedDay; },
+    getPassedWeek() { return passedWeek; },
+    getPassedYear() { return passedYear; }
+  }
 }
+
+export { getToday, calcDiffTime };

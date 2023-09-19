@@ -4,6 +4,9 @@
  * @brief Get difference between two dates.
  */
 
+/**
+ * Returns Today's date according to the format.
+ */
 const getToday = () => {
   return new Date(
     new Date().getFullYear() + '/' +
@@ -12,6 +15,12 @@ const getToday = () => {
   );
 }
 
+/**
+ * Calculate the difference between firstDate and secondDate.
+ * @param firstDate The date before secondDate.
+ * @param secondDate The date after firstDate.
+ * @returns Object that can be choosen every unit of time.
+ */
 const calcDiffTime = (firstDate, secondDate) => {
   const passedMilliSecond = secondDate.getTime() - firstDate.getTime();
   const passedSecond = passedMilliSecond / 1000;

@@ -1,8 +1,8 @@
-# README_utils
-### Scripts for Dynamic READEME.md
-### リアルタイムでREADMEにスクリプトを反映させるには、urlからとってくる方法しかないため、これらのScriptsをVercelにデプロイしてリンクを埋め込むというビジョンとなる。
-
-***
+# README utils
+Scripts for Dynamic READEME.md
 
 ### scripts
+* [time related](#timeRelated)
+
+### timeRelated
 - passedTime : Get difference between two dates.

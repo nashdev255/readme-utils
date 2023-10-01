@@ -5,4 +5,4 @@ Scripts for Dynamic READEME.md
 * [time related](#timeRelated)
 
 ### timeRelated
-- passedTime : Get difference between two dates.
+- [passedTime](./passedTime.js) : Get difference between two dates.
